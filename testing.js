@@ -1,6 +1,6 @@
 //apiTest.js
 const req = require('supertest');
-const app = require('./server');
+const app = require('./index');
 describe('POST /register', function () {
     it('registering user', function (done) {
         let data = {
